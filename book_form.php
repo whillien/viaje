@@ -1,11 +1,6 @@
 <?php
 
-      $server ="	sql107.epizy.com";
-      $username ="epiz_31846104";
-      $password = "gHpeUktHsA";
-      $dbname = "epiz_31846104_book";
- 
-
+   
    $connection = mysqli_connect('localhost','root','','book_db');
 
    if(isset($_POST['send']))
